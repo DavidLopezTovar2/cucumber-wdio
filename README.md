@@ -68,4 +68,4 @@ Follow the below commands
 
 - Install allure package to see the reports `brew install allure` 
 
-- Execute `allure generate --clean './allure-results' && allure open` or `open-allure` script to run allure report
+- Execute `npm run open-allure` script to run allure reports

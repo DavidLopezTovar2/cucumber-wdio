@@ -9,7 +9,7 @@ config.capabilities = [
         maxInstances: 1,
         'appium:automationName': 'UIAutomator2',
         'appium:deviceName': AndroidInfo.deviceName(),
-        //'appium:platformVersion': AndroidInfo.platFormVersion(),
+        'appium:platformVersion': AndroidInfo.platFormVersion(),
         'appium:app': path.resolve(`./apps/${AndroidInfo.appName()}`)
     }
 ];

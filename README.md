@@ -66,4 +66,6 @@ Follow the below commands
 
 - Execute `npm run lint` or `lint` script to run eslint
 
+- Install allure package to see the reports `brew install allure` 
+
 - Execute `allure generate --clean './allure-results' && allure open` or `open-allure` script to run allure report
